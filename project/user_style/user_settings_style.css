@@ -1,0 +1,97 @@
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.overlay {
+    display: none; /* Hide the overlay by default */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #ff6f61; /* Reddish shade for navbar */
+    padding: 15px; /* Increase padding */
+    text-align: left; /* Left-align the content */
+}
+
+.navbar a {
+    color: #fff; /* White text color for navbar links */
+    text-decoration: none;
+    margin: 0 20px; /* Add margin to links */
+    margin-bottom: 20px; /* Adjust margin */
+}
+
+.navbar a:hover {
+    color: #ccc; /* Lighter shade on hover */
+}
+
+/* Container styles */
+.container {
+    max-width: 900px; /* Increase max-width */
+    margin: 50px auto; /* Center the container vertically and horizontally with less margin */
+    padding: 30px; /* Increase padding */
+    background-color: #fff; /* White background color */
+    border-radius: 20px; /* Rounder corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+/* Form styles */
+.input-group {
+    margin-bottom: 15px; /* Add space between input groups */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-group button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50; /* Green button color */
+    color: #fff;
+    cursor: pointer;
+}
+
+.return-group {
+    margin-top: 20px;
+}
+
+.return-group a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Link styles */
+.linkings a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Add spacing between links */
+}
+
+.linkings a:hover {
+    color: #ccc; /* Change link color on hover */
+}
+
+/* Success message styles */
+.success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 15px;
+    margin-bottom: 20px;
+}

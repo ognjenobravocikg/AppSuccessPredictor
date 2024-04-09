@@ -1,0 +1,184 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Keep the font */
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.overlay {
+    display: none; /* Hide the overlay by default */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #ff6f61; /* Reddish shade for navbar */
+    padding: 15px; /* Increase padding */
+    text-align: left; /* Keep the text alignment */
+}
+
+.navbar a {
+    color: #fff; /* White text color for navbar links */
+    text-decoration: none;
+    margin: 0 20px; /* Keep the margin */
+    margin-bottom: 20px; /* Keep the margin bottom */
+}
+
+.navbar a:hover {
+    color: #ccc; /* Lighter shade on hover */
+}
+
+/* Container styles */
+.container {
+    max-width: 900px; /* Keep the max-width */
+    margin: 50px auto; /* Center the container vertically and horizontally with less margin */
+    padding: 30px; /* Increase padding */
+    background-color: #fff; /* White background color */
+    border-radius: 20px; /* Rounder corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+/* Form styles */
+.search-form {
+    margin-top: 15px; /* Increase margin top */
+    text-align: center; /* Center align the form */
+    margin-bottom: 20px; /* Increase margin-bottom */
+}
+
+.search-form label {
+    color: #777; /* Lighter text color for form labels */
+}
+
+.search-form input[type="text"],
+.search-form button {
+    padding: 12px; /* Keep the padding */
+    border: 2px solid #ddd; /* Light border */
+    border-radius: 6px; /* Rounder corners */
+}
+
+.search-form input[type="text"] {
+    width: 300px; /* Keep input width */
+    margin-right: 15px; /* Adjust margin */
+    background-color: #f9f9f9; /* Lighter background color */
+    color: #333; /* Dark text color */
+}
+
+.search-form button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* White text color for button */
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
+
+/* Search results styles */
+.search-results {
+    margin-bottom: 30px; /* Keep margin-bottom */
+}
+
+.search-results h2 {
+    color: #333; /* Dark text color for headings */
+    margin-bottom: 20px; /* Keep margin-bottom */
+}
+
+.search-results ul {
+    list-style-type: disc; /* Keep list style */
+    padding-left: 20px; /* Keep padding */
+}
+
+.search-results li {
+    margin-bottom: 15px; /* Keep margin-bottom */
+}
+
+.professor-info {
+    display: block; /* Keep block display */
+    text-align: center; /* Center align the content */
+    margin-top: 20px; /* Keep margin-top */
+}
+
+.professor-info a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none;
+    margin: 0 10px; /* Keep margin */
+}
+
+.professor-info button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* White text color for button */
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 6px; /* Rounder corners */
+    padding: 10px 20px; /* Increase padding */
+    cursor: pointer;
+    margin: 0 5px; /* Adjust margin */
+}
+
+.professor-info button:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
+
+/* Recommended skills styles */
+.recommended-skills {
+    margin-bottom: 30px; /* Keep margin-bottom */
+}
+
+.recommended-skills strong {
+    color: #4CAF50; /* Green text color for strong tags */
+    margin-right: 10px; /* Keep margin-right */
+}
+
+.recommended-skills p {
+    margin-bottom: 15px; /* Keep margin-bottom */
+}
+
+/* Button styles */
+.chat-button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* White text color for button */
+    border: none;
+    border-radius: 6px; /* Rounder corners */
+    padding: 12px 20px; /* Keep padding */
+    cursor: pointer;
+    margin-top: 20px; /* Keep margin-top */
+}
+
+.chat-button:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
+
+/* Button styles */
+.toggle-btn, .accept-req-btn, .deny-req-btn, .chat-button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toggle-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.accept-req-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.deny-req-btn {
+    background-color: #f44336; /* Red */
+}
+
+.chat-button {
+    background-color: #4CAF50; /* Green */
+}
+
+.toggle-btn:hover, .accept-req-btn:hover, .deny-req-btn:hover, .chat-button:hover {
+    opacity: 0.8;
+}
+

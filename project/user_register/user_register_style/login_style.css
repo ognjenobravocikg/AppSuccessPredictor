@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
+    margin: 0;
+    padding: 0;
+    background-color: #ff6f61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Wrapper for the form */
+.wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: rgba(222, 222, 222, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Boxes */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #4CAF50; /* Bottom border color */
+    width: 93%;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent; /* Transparent background */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.input-box input:focus {
+    border-bottom-color: #45a049; /* Highlight color on focus */
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #4CAF50; /* Icon color */
+}
+
+/* Remember and Forgot Links */
+.remember-forgot {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Submit Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker background color on hover */
+}
+
+/* Register Links */
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
